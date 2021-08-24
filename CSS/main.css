@@ -223,6 +223,7 @@ iframe {
   }
   .navbar nav ul.primary-nav {
     margin: 0;
+    margin-top: -0.5em;
   }
   .navbar nav li.shop-cta a {
     border: 2px solid;
