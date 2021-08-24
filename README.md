@@ -6,16 +6,16 @@ Link to the live version: http://reykjavikcups.surge.sh/
 
 Git repository: https://github.com/Attila-101/ReykjavikCups.git
 
-✓ One page website
-✓ Git repository
-✓ Public URL
-✓ <body>, <header>, <footer>
-✓ <main> = <div class="hero">
-✓ 2x <section>
-✓ <p>, <li>, <img>, <a>
-✓ Use of color palette
-✓ Google fonts
-✓ Hover state
-✓ BEM
+- [x] One page website
+- [x] Git repository
+- [x] Public URL
+- [x] `<body>, <header>, <footer>`
+- [x] `<main> = <div class="hero">`
+- [x] 2x `<section>`
+- [x] `<p>, <li>, <img>, <a>`
+- [x] Use of color palette
+- [x] Google fonts
+- [x] Hover state
+- [x] BEM
 
 Thank you for reading this 😊
