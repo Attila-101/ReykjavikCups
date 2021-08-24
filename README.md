@@ -1,4 +1,6 @@
-﻿# A simple website for a cafe. In the creation process my focus was on experimenting with different html/CSS features. 
+﻿# ReykjavikCups
+ 
+A simple website for a cafe. In the creation process my focus was on experimenting with different html/CSS features. 
 
 Link to the live version: http://reykjavikcups.surge.sh/
 
