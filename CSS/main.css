@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap");
+body {
+  margin: 0;
+}
+
+.hero {
+  height: 100vh;
+  background: url(../images/mike-kenneally-tNALoIZhqVM-unsplash.jpg) center/cover;
+  margin: 0;
+}
+
+nav {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  width: 40%;
+  right: 0;
+  top: 0;
+  background: black;
+  height: 100vh;
+  padding: 1em;
+}
+
+ul.primary-nav {
+  margin-top: 5em;
+}
+
+.navbar {
+  padding: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  font-family: Philosopher;
+  font-style: normal;
+  font-size: 2em;
+  color: #FFFFFF;
+}
+
+.navbar .container-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-menu {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  margin-top: 0.3em;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+.mobile-menu-exit {
+  float: right;
+  margin: .5em;
+  cursor: pointer;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+  font-size: 1.3em;
+  text-align: right;
+}
+
+li a:hover {
+  font-weight: bold;
+}
+
+a {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  position: absolute;
+  bottom: 50vh;
+  left: 40vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4vw;
+  color: white;
+}
+
+h2 {
+  position: absolute;
+  bottom: 45vh;
+  left: 50vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5vw;
+  color: white;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: whitesmoke;
+  font-family: Poppins;
+  font-style: normal;
+  padding: 1em;
+}
+
+.contact .contact-left .fa-facebook {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #3B5998;
+  color: white;
+}
+
+.contact .contact-left .fa-facebook:hover {
+  opacity: 0.7;
+}
+
+.contact .contact-left .fa-instagram {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #bc2a8d;
+  color: white;
+}
+
+.contact .contact-left .fa-instagram:hover {
+  opacity: 0.7;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: whitesmoke;
+}
+
+footer span {
+  color: darkgray;
+  cursor: pointer;
+}
+
+iframe {
+  height: 170px;
+  width: 250px;
+  resize: both;
+}
+
+.instagram {
+  width: 8vw;
+  height: 8vh;
+}
+
+.facebook {
+  width: 8vw;
+  height: 8vh;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu, .mobile-menu-exit {
+    display: none;
+  }
+  .navbar .container {
+    display: -ms-grid;
+    display: grid;
+  }
+  .navbar nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar .container-navbar {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr auto;
+        grid-template-columns: 1fr auto;
+  }
+  .navbar nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 1em;
+    padding-right: 2em;
+  }
+  .navbar nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar nav a {
+    color: white;
+    font-size: 1.3em;
+    padding: .1em 1em;
+  }
+  .navbar nav ul.primary-nav {
+    margin: 0;
+  }
+  .navbar nav li.shop-cta a {
+    border: 2px solid;
+    border-radius: 5em;
+    margin-top: -.2em;
+  }
+  .navbar nav li.shop-cta a:hover {
+    background: white;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 645px) {
+  .contact {
+    display: block;
+    text-align: center;
+  }
+  h1 {
+    position: absolute;
+    bottom: 60vh;
+    left: 15vw;
+    right: 10vw;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6vw;
+    color: white;
+  }
+  h2 {
+    position: absolute;
+    bottom: 57vh;
+    left: 20vw;
+    right: 10vw;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4vw;
+    color: white;
+  }
+}
+/*# sourceMappingURL=main.css.map */
