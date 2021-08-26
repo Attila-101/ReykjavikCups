@@ -17,5 +17,5 @@ Git repository: https://github.com/Attila-101/ReykjavikCups.git
 - [x] Google fonts
 - [x] Hover state
 - [x] BEM
-
+bla
 Thank you for reading this 😊
